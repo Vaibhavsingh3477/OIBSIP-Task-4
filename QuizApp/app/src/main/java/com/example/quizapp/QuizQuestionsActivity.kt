@@ -189,7 +189,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
                 answerView(mSelectedOptionPosition, R.drawable.wrong_option_border_bg)
             }else{
-                mCorrectAnswer ++
+                mCorrectAnswer++
             }
             answerView(questions.correctAnswer, R.drawable.correct_option_border_bg)
             if (mCurrentPosition == mQuestionsList!!.size) {

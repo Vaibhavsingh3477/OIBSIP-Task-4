@@ -27,6 +27,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:theme="@style/Theme.QuizApp.SplashScreen"
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">

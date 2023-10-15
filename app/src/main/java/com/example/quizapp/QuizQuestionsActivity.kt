@@ -172,7 +172,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                             setQuestion()
                         }
                         else->{
-                            // Toast.makeText(this,"Congrats !! You Have finished it." , Toast.LENGTH_LONG).show()
+                            Toast.makeText(this,"Congrats !! You Have finished it." , Toast.LENGTH_LONG).show()
 
                             val intent = Intent(this , ResultActivity::class.java)
                             intent.putExtra(Constants.USER_NAME , mUserName)
